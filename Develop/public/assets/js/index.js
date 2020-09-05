@@ -3,10 +3,6 @@ const $noteText = $(".note-textarea");
 const $saveNoteBtn = $(".save-note");
 const $newNoteBtn = $(".new-note");
 const $noteList = $(".list-container .list-group");
-const express = require("express");
-const app = express();
-
-const PORT = process.env.PORT || 8080;
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
